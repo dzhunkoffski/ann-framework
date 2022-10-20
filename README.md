@@ -4,4 +4,4 @@ Artificial Neural Network framework which allows to build MLP. It has almost the
 * Modules supported by framework: `Linear`, `BatchNormalization`, `Dropout`, `ReLU`, `Sigmoid`, `Softmax`, `LogSoftmax`,
 * Loss functions: `MSELoss`, `CrossEntropyLoss` 
 * Optimizers `SGD`, `Adam`
-* `DataLoade`, `Sequential`
+* `DataLoader`, `Sequential`
