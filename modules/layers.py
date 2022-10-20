@@ -250,6 +250,7 @@ class Sequential(Module):
         :param input: array of size matching the input size of the first layer
         :return: array of size matching the output size of the last layer
         """
+        self.outputs.clear()
         for module in self.modules:
             self.outputs.append(input)
             input = module.compute_output(input)
